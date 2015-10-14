@@ -1,3 +1,4 @@
+{% load staticfiles %}
 <!DOCTYPE html>
 <html lang="es">
 <head>
@@ -5,12 +6,12 @@
 	<meta name="viewport" content="width=device-width, minimum-scale=1, maximum-scale=1" />
 
 	<link href='http://fonts.googleapis.com/css?family=Raleway:800,400' rel='stylesheet' type='text/css'>
-	<link rel="stylesheet" type="text/css" href="/static/css/general.css">
-	<link rel="stylesheet" type="text/css" href="/static/css/fuentesIcoMoon.css">
-	<link rel="shortcut icon" href="/static/img/portafolio.png">
+	<link rel="stylesheet" type="text/css" href="{% static "css/general.css" %}">
+	<link rel="stylesheet" type="text/css" href="{% static "css/fuentesIcoMoon.css" %}">
+	<link rel="shortcut icon" href="{% static "img/portafolio.png" %}">
 
 	<script type="text/javascript" src="http://code.jquery.com/jquery-2.1.4.min.js"></script>
-	<script type="text/javascript" src="/static/js/acciones.js"></script>
+	<script type="text/javascript" src="{% static "js/acciones.js" %}"></script>
 
 	<title>Ian Mendoza Jaimes</title>
 </head>
@@ -51,7 +52,7 @@
 				<div class="Trabajo-elemental">
 					<div class="Trabajo-click invisible"><p>Click para ver más</p></div>
 					<div class="Trabajo-contentImg">
-						<img src="/static/img/logo_s.jpg" class="Trabajo-imagen">
+						<img src="{% static "img/logo_s.jpg" %}" class="Trabajo-imagen">
 						<p class="Trabajo-nombre">StrongFit</p>
 					</div>
 					<p class="Trabajo-descripcion invisible">Una aplicación destinada a ayudar a las personas a mejorar su salud, proporcionando un conteo calórico, estadísticas, contacto con nutriólogos y más.</p>
