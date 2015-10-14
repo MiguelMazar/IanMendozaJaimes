@@ -1,1 +1,1 @@
-web: gunicorn nubelala.wsgi
+web: gunicorn portfolio.wsgi
