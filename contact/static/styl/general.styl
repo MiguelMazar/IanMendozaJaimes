@@ -20,14 +20,14 @@ body,html
 	width 100%
 	height 100vh;
 	text-align center
-	
+
 	&-contenedor
 		position relative
 		display inline-block
 		margin-top 2em
 		font-size 2rem
 		width 100%
-		
+
 	&-imagen
 		background-image url('../img/yo.jpg')
 		background-repeat no-repeat
@@ -37,7 +37,7 @@ body,html
 		display inline-block
 		border-radius 50%
 		box-shadow 1px 1px 20px black
-		
+
 	&-nombre
 		display block
 		vertical-align top
@@ -45,7 +45,7 @@ body,html
 		margin-top 1em
 		padding 1.5em 0
 		background-color rgba(53, 53, 53, .5)
-		
+
 	&-contactos
 		margin-right .5em
 		cursor pointer
@@ -64,25 +64,25 @@ body,html
 	color white
 	//#3288FF
 	z-index 10
-	  
+
 
 	&-lista
 		margin 0
 		padding 0
 		text-align center
-	
+
 	&-elemento
 		display inline-block
 		padding 1.5em 1em
-		
+
 		& a
 			text-decoration none
 			color fondoLetraMenu
-			
+
 		&:hover a
 			border-bottom solid
-			
-	
+
+
 .titulos
 	margin 0
 	text-decoration none
@@ -100,23 +100,23 @@ body,html
 	background-image url('../img/fondoPadre2.jpg')
 	background-size cover
 	background-repeat no-repeat
-	
+
 	&-texto
 		margin 0
 		padding 5em 1em
 		color white
-		
+
 	/*&-imagen
 		width 100%
 		height 20%
 		//margin-bottom 4em
 			*/
-		
-	
+
+
 .Trabajo
 	width 100%
 	position relative
-	
+
 	&-elemento
 		border-bottom solid
 		border-bottom-color fondoMenu
@@ -129,7 +129,7 @@ body,html
 		-o-transition -o-transform .1s ease-out
 		-ms-transition -ms-transform .1s ease-out
 		transition transform .1s ease-out
-		
+
 	&-elemental
 		border-bottom solid
 		border-bottom-color fondoMenu
@@ -142,11 +142,11 @@ body,html
 		-o-transition -o-transform .1s ease-out
 		-ms-transition -ms-transform .1s ease-out
 		transition transform .1s ease-out
-				
+
 	&-contentImg
 		position relative
 		padding 1em 0 1em 1em
-	
+
 	&-imagen
 		width 20%
 
@@ -157,18 +157,18 @@ body,html
 		margin-left 1em
 		font-size 1.25em
 		font-style italic
-	
+
 	&-descripcion
 		display inline-block
 		padding 1em
 		margin 0
 		max-width 30em
-		
+
 
 .Contacto
 	background-color fondoContacto
 	color white
-	
+
 	&-caja
 		max-width 100%
 		min-width 100%
@@ -177,23 +177,23 @@ body,html
 		margin 0
 		font-weight normal
 		padding 2em 0 1em 1em
-		
+
 	&-noDudes
 		padding 1em
 		margin 0
 		text-align left
 		width 80%
 		display inline-block
-		
+
 	&-contenedor1,
 	&-contenedor2
 		text-align center
-		
+
 	&-formulario
 		text-align left
 		display inline-block
 		width 80%
-		
+
 	&-nombre,
 	&-email,
 	&-texto,
@@ -202,17 +202,17 @@ body,html
 		display inline-block
 		border none
 		margin-bottom .5em
-		
+
 	&-nombre,
 	&-email,
 	&-texto
 		padding 1em 2%
 		width 96%
-		
+
 	&-texto
 		max-width 96%
 		min-width 96%
-		
+
 	&-enviar
 		padding .5em
 		width 100%
@@ -220,35 +220,35 @@ body,html
 		color white
 		font-size 1.5em
 		cursor pointer
-		
+
 		&:hover
 			//opacity .7
 			background-color #027800
 			color #DFDFDF
-		
+
 	&-ademas,
 	&-red
 		width 80%
 		display inline-block
 		text-align left
-		
+
 	&-red
 		margin 0 0 .5em 0
-		
+
 		&:last-child
 			margin-bottom 2em
-		
+
 	&-logoRed
 		margin-right .3em
-		
+
 
 
 .invisible
 	display none
-	
+
 #Strongfit: hover ~ #Strongfit1
 	display none
-	
+
 .grande
 	border none
 	webkit-box-shadow 1px 1px 1px rgba(0,0,0,.2)
@@ -259,7 +259,7 @@ body,html
 	-o-transform scale(1.1)
 	-ms-transform scale(1.1)
 	transform scale(1.1)
-	
+
 
 .revelarTrabajo
 	display flex
@@ -271,16 +271,16 @@ body,html
 	top 0
 	left 0
 	right 0
-	
+
 .agrandar
 	width 90%
-	
+
 .nuevoContent
 	width 20%
-	
+
 .nuevoImg
 	width 100%
-	
+
 .flexible
 	display flex
 	justify-content space-between
@@ -289,19 +289,19 @@ body,html
 //=============media querys=======================
 @media (min-width: 750px)
 	.Contacto
-		
+
 		&-caja
 			display flex
-		
+
 		&-texto
 			height 11em
-		
+
 		&-enviar
 			margin-bottom 5em
-			
+
 	.Trabajo
 		background-color #CF6129
-		
+
 		&-contenedor
 			text-align center
 
@@ -314,10 +314,10 @@ body,html
 			border none
 			margin 1em 1em 1em 0
 			border-radius 50%
-			
+
 		&-elemental
 			margin 0
-			
+
 		&-click
 			background-color rgba(158, 158, 158, .7)
 			color white
@@ -327,18 +327,18 @@ body,html
 			position absolute
 			z-index 2
 			font-size 1.2em
-			
+
 			& p
 				margin 0
-				
+
 		&-descripcion
 			width 25%;
-				
-			
+
+
 		&-contentImg
 			height 100%
 			padding 0
-			
+
 		&-imagen
 			position absolute
 			width 70%
@@ -346,8 +346,81 @@ body,html
 			right 0
 			bottom 0
 			border-radius 0 50% 50% 50%
-			
+
 		&-nombre
 			display block
 			margin 0
 			padding 1.5em
+
+
+@media (max-height:300px)
+	.Inicio
+		&-imagen
+			width 3em
+			height 3em
+			position absolute
+			top 1.5em
+			left 1em
+
+		&-nombre
+			margin-top 0
+
+			& p
+				margin .3em 0
+				padding-left 3em
+
+		&-contenedor
+			margin-top .7em
+			font-size 1.5em
+
+
+@media (min-height:300px) and (max-height:330px)
+	.Inicio
+		&-imagen
+			width 4em
+			height 4em
+			top 2.3em
+			left 3em
+
+		&-contenedor
+			margin-top 1em
+			font-size 1.5em
+
+		&-nombre
+			& p
+				margin .3em 0
+
+
+@media (min-height:330px) and (max-height:450px)
+	.Inicio
+		&-imagen
+			width 5em
+			height 5em
+			top 2.3em
+			left 3em
+
+
+		&-contenedor
+			margin-top 1em
+			font-size 1.5em
+
+		&-nombre
+			& p
+				margin .3em 0
+
+@media (min-height:450px) and (max-height:561px)
+	.Inicio
+		&-imagen
+			width 7em
+			height 7em
+			top 2.3em
+			left 3em
+
+
+		&-contenedor
+			margin-top 1em
+			font-size 1.5em
+
+		&-nombre
+			& p
+				margin .5em 0
