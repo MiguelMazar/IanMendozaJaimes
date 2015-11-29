@@ -47,7 +47,7 @@ $(function(){
 
 	$('.Menu-elemento').on('click', function(e){
 		e.preventDefault();
-		if($(this).hasClass('inicio')){			
+		if($(this).hasClass('inicio')){
 			$('body, html').animate({scrollTop: 0}, 500);
 		}
 		else if($(this).hasClass('perfil')){
@@ -58,6 +58,25 @@ $(function(){
 		}
 		else if($(this).hasClass('contactame')){
 			$('body, html').animate({scrollTop: $('.Contacto').offset().top - 60}, 500);
+		}
+	});
+
+	$('.Inicio-contactos').on('click', function(){
+		if($(this).hasClass('github')){
+			window.open('https://github.com/IanMendozaJaimes');
+		}
+		else{
+			if($(this).hasClass('facebook')){
+				window.open('https://www.facebook.com/ian.mendozajaimes');
+			}
+			else{
+				if(){
+					window.open('https://twitter.com/Ian_MJ3?lang=en');
+				}
+				else{
+					window.open('https://plus.google.com/u/0/105354643309951133613/posts');
+				}
+			}
 		}
 	});
 });
