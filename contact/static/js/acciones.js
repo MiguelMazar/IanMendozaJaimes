@@ -1,4 +1,8 @@
+'use strict'
+
 $(function(){
+	let contador = 0;
+	let tecnicas = ['Back-end', 'Front-end'];
 	$(window).scroll(function(){
 		if($(window).scrollTop() >= $('.Tag-Menu').first().offset().top){
 			$('.Menu').addClass('flotar');
@@ -79,4 +83,12 @@ $(function(){
 			}
 		}
 	});
+
+	setInterval(function(){
+		if(contador == $('.rondas').length){contador = 0;}
+		$('.Presentacion-tenica').html(tecnicas[contador]);
+		$('.rondas').addClass('invisible');
+		$('.rondas').eq(contador).removeClass('invisible');
+		contador++;
+	},1500);
 });
