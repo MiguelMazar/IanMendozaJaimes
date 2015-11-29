@@ -90,6 +90,7 @@ body,html
 	background-color rgb(226, 226, 226)
 	padding 2em 0 1em 1em
 	z-index 0
+	text-align left
 
 
 .Presentacion
@@ -100,11 +101,87 @@ body,html
 	background-image url('../img/fondoPadre2.jpg')
 	background-size cover
 	background-repeat no-repeat
+	text-align center
 
 	&-texto
+		max-width 200px
 		margin 0
 		padding 5em 1em
 		color white
+		display inline-block
+		text-align left
+		margin-right 15%
+		vertical-align top
+		font-size 1.1em
+
+	&-tecnologias
+		display inline-block
+		background-color rgba(255,255,255,.5)
+		vertical-align top
+		height 300px
+		margin-top 2em
+		padding 1em 0
+
+	&-backend
+		min-width 400px
+		margin-top 1em
+		padding 1em
+
+		&-ronda1
+			text-align center
+
+			position relative
+			height 300px
+
+			&-python
+				background-image url('../img/python.png')
+				background-size cover
+				background-repeat no-repeat
+				width 80px
+				height 80px
+				position absolute
+				top 0
+				left 0
+
+			&-node
+				background-image url('../img/node.png')
+				background-size cover
+				background-repeat no-repeat
+				width 260px
+				height 70px
+				position absolute
+				top 25px
+				left 110px
+
+			&-java
+				background-image url('../img/java.png')
+				background-size cover
+				background-repeat no-repeat
+				width 50px
+				height 65px
+				position absolute
+				top 120px
+				left 40px
+
+			&-django
+				background-image url('../img/django.png')
+				background-size cover
+				background-repeat no-repeat
+				width 100px
+				height 40px
+				position absolute
+				top 130px
+				left 110px
+
+			&-ruby
+				background-image url('../img/ruby.png')
+				background-size cover
+				background-repeat no-repeat
+				width 110px
+				height 100px
+				position absolute
+				top 140px
+				left 220px
 
 	/*&-imagen
 		width 100%
@@ -300,7 +377,7 @@ body,html
 			margin-bottom 5em
 
 	.Trabajo
-		background-color #CF6129
+		background-color #8D9890
 
 		&-contenedor
 			text-align center

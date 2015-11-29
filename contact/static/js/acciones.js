@@ -70,7 +70,7 @@ $(function(){
 				window.open('https://www.facebook.com/ian.mendozajaimes');
 			}
 			else{
-				if(){
+				if('twitter'){
 					window.open('https://twitter.com/Ian_MJ3?lang=en');
 				}
 				else{
