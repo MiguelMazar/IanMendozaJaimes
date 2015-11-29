@@ -1,7 +1,7 @@
 'use strict'
 
 $(function(){
-	let contador = 0;
+	let contador = 1;
 	let tecnicas = ['Back-end', 'Front-end'];
 	$(window).scroll(function(){
 		if($(window).scrollTop() >= $('.Tag-Menu').first().offset().top){

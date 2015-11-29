@@ -132,6 +132,8 @@ body,html
 
 			position relative
 			height 300px
+			width 370px
+			display inline-block
 
 			&-python
 				background-image url('../img/python.png')
@@ -189,6 +191,8 @@ body,html
 
 			position relative
 			height 300px
+			width 370px
+			display inline-block
 
 			&-html5
 				background-image url('../img/html5.png')
@@ -573,3 +577,14 @@ body,html
 		&-nombre
 			& p
 				margin .5em 0
+
+
+@media (max-width: 788px)
+	.Presentacion
+		&-texto
+			max-width none
+			margin-right 0
+
+		&-tecnologias
+			display block
+			margin-top 0
